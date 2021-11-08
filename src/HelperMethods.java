@@ -5,13 +5,14 @@ import java.nio.channels.SocketChannel;
 public class HelperMethods {
     public static void sendMessage(SocketChannel socketChannel, String message) {
         try {
-            ByteBuffer buffer = ByteBuffer.allocate(message.length() + 12);
+            ByteBuffer buffer = ByteBuffer.allocate(message.length() + 1);
             buffer.put(message.getBytes());
             buffer.put((byte) 0x00);
             buffer.flip();
             while (buffer.hasRemaining()) {
                 socketChannel.write(buffer);
             }
+            System.out.println("Sent: " + message);
         } catch (IOException ex) {
             ex.printStackTrace();
         }
@@ -39,7 +40,7 @@ public class HelperMethods {
             }
             return message.toString();
         } catch (IOException ex) {
-
+            ex.printStackTrace();
         }
         return "";
     }
