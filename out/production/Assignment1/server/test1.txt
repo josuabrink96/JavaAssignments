@@ -1,0 +1,43 @@
+Copyright (c) Exelixis Media P.C., 2015
+All rights reserved. Without limiting the rights under
+copyright reserved above, no part of this publication
+may be reproduced, stored or introduced into a retrieval system, or
+transmitted, in any form or by any means (electronic, mechanical,
+photocopying, recording or otherwise), without the prior written
+permission of the copyright owner.
+
+A design pattern is a general reusable solution to a commonly occurring problem within a given context in software design.
+A design pattern is not a finished design that can be transformed directly into source or machine code. It is a description or
+template for how to solve a problem that can be used in many different situations. Patterns are formalized best practices that the
+programmer can use to solve common problems when designing an application or system.
+In this book you will delve into a vast number of Design Patterns and see how those are implemented and utilized in Java. You
+will understand the reasons why patterns are so important and learn when and how to apply each one of them.
+
+
+Rohit Joshi works as a Software Engineer in the Consumer Product Sector. He is a Sun Certified Java Programmer. He had
+worked in projects related to different domains.
+He is also involved in system analysis and system designing. He mainly works in Core Java and J2EE technologies but also have
+good experience in front-end technologies like Javascript and Jquery.
+
+
+In the late 70’s, an architect named Christopher Alexander started the concept of patterns. Alexander’s work focused on finding
+patterns of solutions to particular sets of forces within particular contexts.
+Christopher Alexander was a civil engineer and an architect, his patterns were related to architects of buildings, but the work done
+by him inspired an interest in the object-oriented (OO) community, and a number of innovators started developing patterns for
+software design. Kent Beck and Ward Cunningham were among the few who presented the set of design patterns for Smalltalk
+in an OOPSLA conference. James Coplien was another who actively promoted the tenets of patterns.
+
+Soon, the patterns community started growing at OOPSLA, as it placed an environment for the members to share their innovations
+and ideas about the patterns. Another important forum for the evolution of the patterns movement was the Hillside Group,
+established by Kent Beck and Grady Booch.
+
+This is what design patterns are - the distillation of expertise by an exuberant and robust community. This is crowd sourcing at
+its best. The patterns community that has grown over the decade-plus since the original GoF work is large and energetic. Grady
+Booch and Celso Gonzalez have been collecting every pattern they can find in the industry. So far, they have over 2,000 of them.
+This course is all about Design Patterns. In this course, we will present to you, the most useful and famous design patterns. In
+this lesson, first we will see what really are the Design Patterns. What is their use? Why one should really use them, and how to
+use them?
+
+Later, we will also see how patterns are organized, and categorized into different groups according to their behavior and structure.
+In the next several lessons, we will discuss about the different design patterns one by one. We will go into depth and analyze
+each and every design pattern, and will also see how to implement them in Java.
