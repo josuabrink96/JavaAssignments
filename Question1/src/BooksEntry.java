@@ -11,7 +11,8 @@ public class BooksEntry {
     private int authorID;
     private int publisherID;
 
-    public BooksEntry() { }
+    public BooksEntry() {
+    }
 
     public int getPublisherID() {
         return publisherID;
